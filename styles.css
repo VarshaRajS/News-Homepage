@@ -1,0 +1,61 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.main-box{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+p{
+    font-size: 15px;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+.navbar{
+    color:hsl(233, 8%, 79%);
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.main-img{
+    width: 90%;
+    height: auto;
+    max-height: 50%;
+}
+
+.heading-title{
+    font-weight: 800;
+    text-align: left;
+    margin-right: 70%;
+}
+
+.main-text{
+    margin-left: 20%;
+}
+
+.card-title{
+    padding-top: 6%;
+    padding-bottom: 6%;
+    color: hsl(35, 77%, 62%);
+    font-size: 2.8rem;
+}
+
+.card-text{
+    padding-bottom: 6%;
+}
+
+.card-subtitle{
+    padding-top: 6%;
+}
+
+.card{
+    display: inline-block;
+}
