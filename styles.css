@@ -1,3 +1,6 @@
+/*Importing the font inter from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
 :root{
 --Soft-orange: hsl(35, 77%, 62%);
 --Soft-red : hsl(5, 85%, 63%);
@@ -13,20 +16,13 @@
     box-sizing: border-box;
 }
 
-
 body{
     font-family: 'Inter', sans-serif;
-    overflow: hidden;
-}
-
-.main-box{
-    margin-left: 12%;
-    margin-right: 12%;
-}
-
-p{
     font-size: 15px;
 }
+
+
+/*Styling the nav-box section*/
 
 .nav-item{
     padding: 0 18px;
@@ -36,78 +32,116 @@ p{
     font-size: 1.2rem;
 }
 
+.nav-link:hover::after{
+    color: var(--Soft-orange);
+    transform: color .3s;
+}
+
 .navbar{
     color:hsl(233, 8%, 79%);
     margin-top: 35px;
     margin-bottom: 35px;
 }
 
-.main-img{
-    width: 100%;
-    height: auto;
-    max-height: 100%;
+.nav-box{
+    margin-left: 12%;
+    margin-right: 12%;
 }
 
-.heading-title{
-    font-weight: 800;
-    font-size: 2.8rem;
-}
 
-.highlights-title{
-    padding-top: 3%;
-    padding-bottom: 3%;
-    font-size: 2rem;
-    color: var(--Soft-orange);
-}
+/*Styling the heading section*/
 
-.highlights{
-    padding-bottom: 4%;
-        color:var(--Dark-grayish-blue);
-    font-size: 0.9rem;
-}
-
-.sub-highlights{
-    padding-top: 4%;
-}
-
-button{
-    background-color: hsl(5, 85%, 63%);
-    color: white;
-    border: none;
-    width: 30%;
-    padding: 2%;
-    margin-top: 3%;
-}
-
-.heading-part{
+.heading-section{
     float: left;
     width:75%;
     height: auto;
 }
 
-.section2{
-   float: right;
-  width:25%;
-  margin-left: 0%;
+.heading-title{
+    font-weight: 800;
+    font-size: 2.8rem;
+    padding-top: 5%;
 }
 
-p{
-    padding: 4% 5% 4% 5%;
-    color:var(--Dark-grayish-blue);
+.main-img{
+    width: 100%;
+    height: auto;
+}
+
+.main-text{
+    padding-top: 4%;
     font-size: 0.9rem;
-
+    color: var(--Dark-grayish-blue);
 }
 
-h6{
+
+/*Styling the highlights section*/
+
+.highlights-title{
+    font-size: 2rem;
+    color: var(--Soft-orange);
+    padding:6%;
+}
+
+.highlights{
+    color:var(--Off-white);
     padding: 4%;
 }
 
-h5{
-    padding: 6%;
-    margin-top: 8%;
+.highlights:hover{
+    color: var(--Soft-orange);
+}
+
+.sub-highlights{
+    padding: 3.2%;
+    color:var(--Dark-grayish-blue);
+    font-size: 0.9rem;
+}
+
+hr{
+    border-top: 1px solid hsl(233, 8%, 79%) !important;
+    background-color: var(--Grayish-blue);
+}
+
+.highlights-section{
+    float: right;
+    width:25%;
+    margin-left: 0%;
 }
 
 .part2{
     padding-left: 5%;
     padding-right: 5%;
+    background-color: var(--Very-dark-blue);
+}
+
+
+/*Styling the button*/
+
+.read-more-button{
+    background-color: hsl(5, 85%, 63%);
+    color: white;
+    border: none;
+    width: 40%;
+    padding: 2%;
+    margin-top: 7%;
+}
+
+.read-more-button:hover{
+    background-color: black;
+    color: white;
+}
+
+/*Styling the news section*/
+
+.news-section{
+
+}
+
+.news-images{
+    float: left; 
+}
+
+.news-text{
+    float: right;
 }
